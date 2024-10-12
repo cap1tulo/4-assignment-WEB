@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    margin-bottom: 150px;
+    background-color: rgb(0, 132, 255);
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.nav {
+    padding: 20px;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__item {
+    list-style: none;
+}
+.nav__link {
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    text-decoration: none;
+}
+.form-validation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 132, 255);
+}
+.footer .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer span {
+    color: white;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* To-do List */
+.to-dolist {
+    display: flex;
+    justify-content: center;
+}
+
+.to-dolist input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.to-dolist button {
+    padding: 10px;
+    border: none;
+    background: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.to-dolist ul {
+    list-style: none;
+    padding: 0;
+}
+
+li.todo-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/*Number Sorting */
+.number-sorting {
+    display: flex;
+    justify-content: center;
+}
+
+.number-sorting button {
+    padding: 10px;
+    border: none;
+    background: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Change BG */
+.change-bg {
+    display: flex;
+    justify-content: center;
+}
+.change-bg button {
+    padding: 10px;
+    border: none;
+    background: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Current Time */
+.current-time {
+    display: flex;
+    justify-content: center;
+}
+
+/*Guess Game */
+.guess-game {
+    display: flex;
+    justify-content: center;
+}
+.guess-game button {
+    padding: 10px;
+    border: none;
+    background: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
